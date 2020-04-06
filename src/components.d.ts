@@ -11,10 +11,8 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 export namespace Components {
   interface MyComponent {
-    'first': string;
-    'last': string;
-    'sImage': string;
-    'xImage': string;
+    'categoryUrl': string;
+    'productUrl': string;
   }
 }
 
@@ -33,10 +31,8 @@ declare global {
 
 declare namespace LocalJSX {
   interface MyComponent {
-    'first'?: string;
-    'last'?: string;
-    'sImage'?: string;
-    'xImage'?: string;
+    'categoryUrl'?: string;
+    'productUrl'?: string;
   }
 
   interface IntrinsicElements {

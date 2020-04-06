@@ -1,8 +1,21 @@
+export interface Product {
+  id: number;
+  title: string;
+  category: string;
+  categoryId: number;
+  price: number;
+  stock: number;
+  imageUrl: string;
+}
 
-export function format(first: string, middle: string, last: string): string {
-  return (
-    (first || '') +
-    (middle ? ` ${middle}` : '') +
-    (last ? ` ${last}` : '')
-  );
+export interface ResultItem {
+  title: string;
+  tags?: string[];
+  imageUrl: string;
+}
+
+export interface Category {
+  id: number;
+  products: number;
+  name: string;
 }

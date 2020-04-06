@@ -7,12 +7,10 @@
 
 ## Properties
 
-| Property | Attribute | Description | Type     | Default     |
-| -------- | --------- | ----------- | -------- | ----------- |
-| `first`  | `first`   |             | `string` | `undefined` |
-| `last`   | `last`    |             | `string` | `undefined` |
-| `sImage` | `s-image` |             | `string` | `undefined` |
-| `xImage` | `x-image` |             | `string` | `undefined` |
+| Property      | Attribute      | Description | Type     | Default     |
+| ------------- | -------------- | ----------- | -------- | ----------- |
+| `categoryUrl` | `category-url` |             | `string` | `undefined` |
+| `productUrl`  | `product-url`  |             | `string` | `undefined` |
 
 
 ----------------------------------------------
