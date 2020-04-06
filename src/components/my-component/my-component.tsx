@@ -59,13 +59,11 @@ export class MyComponent {
   }
 
   enterPressed(event) {
-    var code = event.keyCode || event.which;
+    let code = event.keyCode || event.which;
+
     let categoryNameProp;
     const words = this.value !== undefined ? this.value.split(" ") : null;
     if (code === 32 && this.itemsArray.length == 0) {
-      //13 is the enter keycode
-      alert(this.value);
-
       categoryNameProp = this.category.find((el) => el.name == words[0]);
       if (categoryNameProp !== undefined && words[1] !== undefined) {
         if (this.itemsArray.length == 0) {
